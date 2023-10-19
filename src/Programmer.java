@@ -1,18 +1,18 @@
 public class Programmer {
-    private LevelProgStrategy levelProgStrategy;
+    private LevelProgStrategyDecorator levelProgStrategyDecorator;
     public String name;
     public int experienceAge;
 
-    public Programmer(LevelProgStrategy levelProgStrategy, String name, int experienceAge) {
-        this.levelProgStrategy = levelProgStrategy;
+    public Programmer(LevelProgStrategyDecorator levelProgStrategyDecorator, String name, int experienceAge) {
+        this.levelProgStrategyDecorator = levelProgStrategyDecorator;
         this.name = name;
         this.experienceAge = experienceAge;
     }
     public int salary(){
-        return levelProgStrategy.salary(experienceAge);
+        return levelProgStrategyDecorator.salary(experienceAge);
     }
 
     public String whatCanIDO(){
-        return levelProgStrategy.whatCanIDO(name);
+        return levelProgStrategyDecorator.whatCanIDO(name);
     }
 }
