@@ -8,11 +8,18 @@ public class Programmer {
         this.name = name;
         this.experienceAge = experienceAge;
     }
-    public int salary(){
+
+    public int salary() {
         return levelProgStrategyDecorator.salary(experienceAge);
     }
 
-    public String whatCanIDO(){
+    public String whatCanIDO() {
         return levelProgStrategyDecorator.whatCanIDO(name);
+    }
+
+    @Override
+    public String toString() {
+        return
+                whatCanIDO() + " " + salary()+"tg";
     }
 }
