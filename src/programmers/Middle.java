@@ -1,3 +1,5 @@
+package programmers;
+
 public class Middle implements LevelProgStrategy {
     @Override
     public int salary(int experienceAge) {

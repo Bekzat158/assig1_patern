@@ -1,3 +1,7 @@
+package decorators;
+
+import programmers.LevelProgStrategy;
+
 public class GolangDecorator extends LevelProgStrategyDecorator {
     public GolangDecorator(LevelProgStrategy wrappee) {
         super(wrappee);

@@ -1,3 +1,5 @@
+package programmers;
+
 public class Junior implements LevelProgStrategy {
     @Override
     public int salary(int experienceAge) {

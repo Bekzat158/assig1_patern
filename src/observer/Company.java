@@ -1,7 +1,11 @@
+package observer;
+
+import programmers.Programmer;
+
 import java.util.ArrayList;
 import java.util.List;
 
-public class Company implements Observed{
+public class Company implements Observed {
     private List<Programmer> programmers = new ArrayList<>();
     private List<Observer> departments = new ArrayList<>();
 

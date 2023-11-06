@@ -1,4 +1,8 @@
-public class PythonDecorator extends LevelProgStrategyDecorator{
+package decorators;
+
+import programmers.LevelProgStrategy;
+
+public class PythonDecorator extends LevelProgStrategyDecorator {
     public PythonDecorator(LevelProgStrategy wrappee) {
         super(wrappee);
     }

@@ -1,3 +1,7 @@
+package observer;
+
+import programmers.Programmer;
+
 import java.util.List;
 
 public class Department implements Observer {
@@ -9,7 +13,7 @@ public class Department implements Observer {
 
     @Override
     public void handleEvent(List<Programmer> programmers) {
-        System.out.println("Department " + name + " need programers:\n" + programmers + "\n\n");
+        System.out.println("Observer.Department " + name + " need programers:\n" + programmers + "\n\n");
     }
 
 }

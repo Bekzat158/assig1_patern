@@ -1,3 +1,5 @@
+package programmers.adapter;
+
 public class NoCoder {
     public int wages(int experienceAge) {
         return (int) (100000 * 0.7 * experienceAge);
