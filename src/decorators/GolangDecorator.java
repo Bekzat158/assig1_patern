@@ -14,6 +14,6 @@ public class GolangDecorator extends LevelProgStrategyDecorator {
 
     @Override
     public String whatCanIDO(String name) {
-        return super.whatCanIDO(name) + "________I can write code in Golang";
+        return super.whatCanIDO(name) + "___I can write code in Golang";
     }
 }
