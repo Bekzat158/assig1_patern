@@ -14,8 +14,7 @@ public abstract class Development {
 
     @Override
     public String toString() {
-        return "Development{" +
-                "knowledges=" + knowledges +
+        return "Development{" + knowledges +
                 '}';
     }
 }

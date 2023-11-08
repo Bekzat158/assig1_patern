@@ -8,6 +8,6 @@ public class Junior implements LevelProgStrategy {
 
     @Override
     public String whatCanIDO(String name) {
-        return name + " be able to independently solve simple typical problems";
+        return name + " is Junior";
     }
 }

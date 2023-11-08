@@ -8,6 +8,6 @@ public class Middle implements LevelProgStrategy {
 
     @Override
     public String whatCanIDO(String name) {
-        return name + " be able to select several solutions to a given problem and find the optimal option";
+        return name + " is Middle";
     }
 }

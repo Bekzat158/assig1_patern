@@ -5,5 +5,5 @@ import programmers.Programmer;
 import java.util.List;
 
 public interface Observer {
-    public void handleEvent(List<Programmer> programmers);
+    public void update(String version);
 }
