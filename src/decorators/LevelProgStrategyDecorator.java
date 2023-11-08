@@ -1,4 +1,8 @@
-public class LevelProgStrategyDecorator  implements LevelProgStrategy{
+package decorators;
+
+import programmers.LevelProgStrategy;
+
+public class LevelProgStrategyDecorator  implements LevelProgStrategy {
     private LevelProgStrategy  wrappee;
 
     public LevelProgStrategyDecorator(LevelProgStrategy wrappee) {

@@ -1,3 +1,7 @@
+package programmers.adapter;
+
+import programmers.LevelProgStrategy;
+
 public class NoCoderAdapter implements LevelProgStrategy {
     private NoCoder noCoder;
 
