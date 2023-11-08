@@ -14,10 +14,10 @@
   <h1>Diagrams</h1>
 
   <h2>Diagram 1</h2>
-    <img src="diagrams/diagram1.jpg" alt="Diagram 1 Description" width="400" height="300">
+    <img src="diagrams/diagram1.png" alt="Diagram 1 Description" width="400" height="300">
 
   <h2>Diagram 2 with dependencies</h2>
-    <img src="diagrams/diagram2.jpg" alt="Diagram 2 Description" width="400" height="300">
+    <img src="diagrams/diagram2.png" alt="Diagram 2 Description" width="400" height="300">
 
   <h2 id="usage">Usage</h2>
   <p>To run the application, follow these steps:</p>
