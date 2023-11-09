@@ -28,7 +28,7 @@ public class Main {
 
 
         Development development4 = DevelopmentFactory.createDevelopment(DevelopmentCode.DATABASE);
-        Programmer p4 = new Programmer(new PythonDecorator(new GolangDecorator(new Junior())), "Saken", 5,"visualStudio",development4);
+        Programmer p4 = new Programmer(new JavaDecorator(new GolangDecorator(new Junior())), "Saken", 5,"visualStudio",development4);
         app.addProgrammer("visualStudio",p4);
 
 
